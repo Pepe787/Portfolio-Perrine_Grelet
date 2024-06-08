@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous"> -->
+    <meta name="description" content="Portfolio de Perrine Grelet - étudiante en Science des données ">
+    <link rel="stylesheet" type="text/css" href="css_bs/bootstrap.min.css" >
+    <!--<link rel="shortcut icon" href="image/favicon.ico?v=1" type="image/x-icon">-->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+     <title> Portfolio Perrine Grelet </title>
+</head>
+<body>
+    <header>
+        <img src="image/bannière.png" alt="bannière" width="20%" height="35" id="bannière">
+    </header>
+
+    	<!-- ************************DEBUT DE LA BARRE DE NAVIGATION**********************************-->
+	
+      <nav class="navbar navbar-expand-lg navbar-dark -top">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="index.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-house" viewBox="0 0 16 16">
+                                <path d="M8.707 1.5a1 1 0 0 0-1.414 0L.646 8.146a.5.5 0 0 0 .708.708L2 8.207V13.5A1.5 1.5 0 0 0 3.5 15h9a1.5 1.5 0 0 0 1.5-1.5V8.207l.646.647a.5.5 0 0 0 .708-.708L13 5.793V2.5a.5.5 0 0 0-.5-.5h-1a.5.5 0 0 0-.5.5v1.293zM13 7.207V13.5a.5.5 0 0 1-.5.5h-9a.5.5 0 0 1-.5-.5V7.207l5-5z"/>
+                            </svg>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="index.html#presentation">Présentation</a></li>
+                            <li><a class="dropdown-item" href="index.html#parcours">Mon parcours scolaire</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="competences.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Mes compétences et projets
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="competences.html#comp">Mes compétences</a></li>
+                            <li><a class="dropdown-item" href="competences.html#projet">Mes projets</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" href="expepro.html" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Expériences professionnelles
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="expepro.html#alt">Mon alternance</a></li>
+                            <li><a class="dropdown-item" href="expepro.html#pkalt">Pourquoi l'alternance ?</a></li>
+                            <li><a class="dropdown-item" href="expepro.html#job">Job étudiant</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="contact.html">Contact &#9993;</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+      
+        <!-- ************************FIN DE LA BARRE DE NAVIGATION**********************************-->
+        <section class="intro">  
+          <div class="presentation" id="presentation">
+
+          <div class = "pres ">
+          <h1>Moi, c'est <strong>&#420;errine Grelet </strong> </h1>
+          <p> J'ai 20 ans et je suis étudiante en deuxième année de BUT <strong><em>Sciences des Données</em></strong>.
+          Ce diplôme forme à gérer, analyser et interpréter des données pour prendre des décisions basées sur les données dans différents domaines.<br>
+          Je dois avouer que j'ai découvert le domaine des données un peu par hasard, grâce à Parcoursup. Au départ, mon seul souhait était de m'orienter vers une filière axée sur les mathématiques.
+          Finalement, je réalise que j'ai bien fait ce choix, car je ne me vois pas exercer une autre profession.<br>
+          À travers ce portfolio, je vous invite à découvrir une partie de mon parcours et de ma formation. </p>
+          </div>
+          <div class = "pres">
+				    <img src="image/Perrine.jpg" alt="photo Perrine"  >
+			    </div>
+        </div>
+        </section>
+			  
+		    </div> 
+        <div class = "data">
+				<img src="image/data.png" alt="data" >
+		    </div>  
+        <div class = "parcours" id="parcours">
+            <h2>Mon parcours scolaire</h2>
+            <img src="image/parcours.png" alt="parcours" >
+       </div>  
+       <div class="cbtn">
+      <button type="button" class="btn-competence" onclick="window.location.href='competences.html'">Compétences et Projets</button>
+      <button type="button" class="btn-experience" onclick="window.location.href='expepro.html'">Expériences professionnelles</button>
+      <button type="button" class="btn-contact" onclick="window.location.href='contact.html'">Contact &#9993;</button>
+  </div>
+      <footer>
+        <div class="footer-content">
+            <div class="linkedin">
+                <h4>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
+                    </svg>  
+                    <a href="https://www.linkedin.com/in/perrine-grelet-40187b263/" target="_blank">LinkedIn</a>
+                </h4>
+            </div>
+            <a href="image/CV_PERRINE_GRELET.pdf" class="btn-CV">Télécharger mon CV</a>
+        </div>
+    </footer>
+</body>
+</html>
